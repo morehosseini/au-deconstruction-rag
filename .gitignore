@@ -1,0 +1,80 @@
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# ── Virtual environments ──────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# ── Jupyter / IPython ─────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# ── ChromaDB (rebuilt from scratch each run) ──────────────────
+chroma_db/
+*.chroma
+
+# ── API keys and secrets ──────────────────────────────────────
+.env
+*.env
+secrets.json
+credentials.json
+openai_key.txt
+
+# ── macOS system files ────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ── Windows system files ──────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ── IDE and editor files ──────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ── Word processor temporary files ───────────────────────────
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# ── Log and cache files ───────────────────────────────────────
+*.log
+*.cache
+.cache/
+logs/
+
+# ── Large binary / generated files ───────────────────────────
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.parquet
+
+# ── Backup manuscript drafts (keep only final revision) ───────
+*R00.docx
+*R01.docx
+*.backup_before_*.docx
